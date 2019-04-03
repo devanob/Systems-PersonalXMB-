@@ -1,0 +1,217 @@
+/* Classes that are specific to this page. */
+
+@font-face {
+    font-family: 'DDG_ProximaNova';
+    src: url('font/ProximaNova-Reg-webfont.eot');
+    src: url('font/ProximaNova-Reg-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/ProximaNova-Reg-webfont.woff') format('woff'),
+    url('font/ProximaNova-Reg-webfont.ttf') format('truetype'),
+    url('img/ProximaNova-Reg-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DDG_ProximaNova';
+    src: url('font/ProximaNova-Sbold-webfont.eot');
+    src: url('font/ProximaNova-Sbold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/ProximaNova-Sbold-webfont.woff') format('woff'),
+    url('font/ProximaNova-Sbold-webfont.ttf') format('truetype'),
+    url('img/ProximaNova-Sbold-webfont.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+	font-family:'DDG_ProximaNova';
+	src:url("font/ProximaNova-Light-webfont.eot");
+	src:url("font/ProximaNova-Light-webfont.eot?#iefix") format("embedded-opentype"),url("font/ProximaNova-Light-webfont.woff") format("woff"),url("font/ProximaNova-Light-webfont.ttf") format("truetype"),url("img/ProximaNova-Light-webfont.svg") format("svg");
+	font-weight: 300;
+	font-style: normal;
+}
+
+.proxima-nova {
+    font-family: 'DDG_ProximaNova', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+/* Colors */
+
+.bg-ddg-blue {
+    background: #5DA4DC;
+}
+
+.bg-ddg-gray {
+    background: #EDEDED;
+}
+
+.bg-ddg-footer {
+    background: #434A50;
+}
+
+.ddg-title-blue {
+    color: #dee2e5;
+}
+
+.ddg-blue {
+    color: #5DA4DC;
+}
+
+.footer-item {
+    font-size: .85rem;
+}
+
+.footer-item a {
+    color: #c5cacd;
+    text-decoration: none;
+}
+
+.footer-item-color {
+    color: #c5cacd;
+}
+
+.ddg-gray {
+    color: #999;
+}
+
+.ddg-gray-2 {
+    color: #888;
+}
+
+.ddg-black {
+    color: #333;
+}
+
+.ddg-black-2 {
+    color: #666;
+}
+
+/* Some measurement and spacing tweaks */
+
+.max-width {
+    max-width: 1008px;
+}
+
+.lh-copy {
+    line-height: 1.5;
+}
+
+.number {
+    position: relative;
+    top: 3px;
+    padding-right: .3rem;
+}
+
+.numbered-list > li {
+    padding-bottom: .3rem;
+}
+
+.button--view-positions {
+    padding-top: .75em;
+    padding-bottom: .75em;
+}
+
+.logo {
+    height: 60vh;
+    padding-bottom: 57%;
+    padding-top: 2em;
+    background:url(img/img1.jpg) no-repeat center;
+}
+
+@media (min-width: 700px) {
+    .logo {
+        height: 60vh;
+        padding-bottom: 69%;
+    }
+}
+
+@media (min-width: 450px) {
+    .logo {
+        height: 75vh;
+        padding-bottom: 40vh;
+    }
+}
+
+.logo > img {
+    width: 80px;
+    height: 80px;
+    padding-bottom: 5px;
+}
+
+.measure--wrap-title {
+    max-width: 25rem;
+}
+
+.w-title {
+    max-width: 33rem;
+}
+
+.hiring-process-title {
+    padding-right: 0;
+}
+
+.other-reasons-title {
+    padding-right: 0;
+}
+
+.logo h1, .logo h2 {
+    text-shadow: 0 0 50px #562a28, 0 0 25px #562a28;
+}
+
+.benefits a:hover {
+    color: #e74c58;
+}
+
+.benefits svg {
+    width: 10px;
+    fill: #e74c58;
+}
+
+.logo img {
+    width: 75px;
+}
+
+@media (min-width: 370px) {
+    .logo img {
+        width: 100px;
+    }
+}
+
+/* Not small screen */
+@media screen and (min-width: 30em) {
+    .logo > img {
+        width: 120px;
+        height: 120px;
+        padding-bottom: 10px;
+    }
+
+    .hiring-process-title {
+        padding-right: 6em;
+    }
+
+    .other-reasons-title {
+        padding-right: 4em;
+    }
+}
+
+
+/* Medium-sized screen */
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .community {
+        margin-left: 25%;
+    }
+
+    .hiring-process-title {
+        padding-right: 0;
+    }
+
+    .other-reasons-title {
+        padding-right: 0;
+    }
+}
+
+/* Large screens */
+@media screen and (min-width: 60em) {
+    .community {
+        margin-left: 0;
+    }
+}

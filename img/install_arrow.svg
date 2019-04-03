@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="56px" viewBox="0 0 24 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="instructions_firefox_01" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-570.000000, -338.000000)" stroke-linecap="round">
+        <g id="Group-4" transform="translate(41.000000, 43.000000)" stroke="#FFFFFF" stroke-width="5">
+            <g id="Group-3" transform="translate(530.000000, 298.000000)">
+                <g id="Group" transform="translate(10.500000, 25.000000) scale(-1, 1) translate(-10.500000, -25.000000) translate(1.000000, 0.000000)">
+                    <path d="M6,4 C12,12.6666667 14.3333333,22 13,32 C11.6666667,42 7.33333333,48 0,50" id="Path"></path>
+                    <polyline id="Path-2" transform="translate(9.548892, 9.575403) rotate(16.000000) translate(-9.548892, -9.575403) " points="2.47455625 16.7118274 2.47455625 2.43897781 16.623228 2.43897781"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

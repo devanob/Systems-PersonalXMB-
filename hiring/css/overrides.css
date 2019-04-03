@@ -1,0 +1,26 @@
+/* Overrides for Tachyons */
+
+.f2 {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 30em) {
+    .f3 {
+        font-size: 26px;
+    }
+}
+
+/* Not small screen */
+@media screen and (min-width: 30em) {
+    .f2-ns {
+        font-size: 30px;
+    }
+}
+
+
+/* Medium-sized screen */
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .f2-m, .f2-ns {
+        font-size: 24px;
+    }
+}
